@@ -15,7 +15,7 @@
   <a href="https://docs.peddleswap.xyz/contracts">Contracts</a> ·
   <a href="https://testnet.peddleswap.xyz">Testnet</a> ·
   <a href="https://peddleswap.xyz/brand">Brand kit</a> ·
-  <a href="https://github.com/peddleswap/core-sdk">SDK</a>
+  <a href="https://www.npmjs.com/package/@peddleswap/sdk">SDK</a>
 </p>
 
 <p align="center">
@@ -80,7 +80,11 @@ Every contract's source code is published and verified, so anyone can read exact
 
 ## For developers
 
-The PeddleSwap SDK is on GitHub: **[peddleswap/core-sdk](https://github.com/peddleswap/core-sdk)**. It has the addresses, ABIs and chain definitions for every PeddleSwap contract on every network, in TypeScript, built for [viem](https://viem.sh).
+The PeddleSwap SDK is on npm as **[@peddleswap/sdk](https://www.npmjs.com/package/@peddleswap/sdk)**, with its source at **[peddleswap/core-sdk](https://github.com/peddleswap/core-sdk)**. It has the addresses, ABIs and chain definitions for every PeddleSwap contract on every network, in TypeScript, built for [viem](https://viem.sh).
+
+```sh
+npm install @peddleswap/sdk viem
+```
 
 - **Building with Claude?** Hand it [CLAUDE-PROMPT.md](https://github.com/peddleswap/core-sdk/blob/main/CLAUDE-PROMPT.md) and it will know how to integrate PeddleSwap.
 - **Contract addresses** for every network: [docs.peddleswap.xyz/contracts](https://docs.peddleswap.xyz/contracts)
